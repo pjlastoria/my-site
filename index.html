@@ -1,45 +1,373 @@
-<!doctype html>
-<html>
-	<head>
-		<link rel="stylesheet" href="main.css">
-	</head>
-	<body>
-		<div class="navbar">
-		  <div class="nav-text">
-			<p class="nav-btns left">PJ</p>
-			<p class="nav-btns right">Contact</p>
-			<p class="nav-btns right">Projects</p>
-			<p class="nav-btns right">About</p>
-		  </div>
-		</div>
-		<section id="about">
-			<div class="container">
-				<h1 class="header">PJ</h1>
-				<h2 class="header">Front End Developer</h2>
-				<img id="sprite-hero" src="Images/coding_sprite0.png"/>
-			</div>
-		</section>
-		<section id="projects">
-			<h1 class="header" id="project-header">Projects</h1>
-			<div class="project-container">
-				<a href="http://codepen.io/Rinz/full/PbBxGg/"><img class="project-images box-shadow" src="Images/simon-game.png"></a>
-				<a href="http://codepen.io/Rinz/full/MKGPjX/"><img class="project-images box-shadow" src="Images/breakout-game.png"></a>
-				<a href="http://codepen.io/Rinz/full/EKoVXq/"><img class="project-images box-shadow" src="Images/memory-game.png"></a>
-				<a href="http://codepen.io/Rinz/full/OMjQWL/"><img class="project-images box-shadow" src="Images/tic-tac-toe.png"></a>
-				<div class="project-images box-shadow">Coming Soon</div>
-				<div class="project-images box-shadow">Coming Soon</div>
-				<div class="project-images box-shadow">Coming Soon</div>
-				<div class="project-images box-shadow">Coming Soon</div>
-			</div>
-			<!--<div class="box-shadow" id="project-btn">More</div>-->
-		</section>
-		<section id="contact">
-			<h1 class="header" id="contact-header">Find Me On...</h1>
-			<div id="contact-container">
-				<a href="http://codepen.io/"><img class="social-icons" src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-White-Large.png"></a>
-				<a href="https://github.com/"><img class="social-icons" src="Images/GitHub-Mark.png"></a>
-			</div>
-		</section>
-		<script src="main.js"></script>
-	</body>
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	
+<div id="root">
+  <div id="left" class="nav">
+    <div class="nav-top">
+      <form>
+        <input id="search-box" type="text" value="Search movies..." />
+        <img id="search-icon" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU2Ljk2NiA1Ni45NjYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU2Ljk2NiA1Ni45NjY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPHBhdGggZD0iTTU1LjE0Niw1MS44ODdMNDEuNTg4LDM3Ljc4NmMzLjQ4Ni00LjE0NCw1LjM5Ni05LjM1OCw1LjM5Ni0xNC43ODZjMC0xMi42ODItMTAuMzE4LTIzLTIzLTIzcy0yMywxMC4zMTgtMjMsMjMgIHMxMC4zMTgsMjMsMjMsMjNjNC43NjEsMCw5LjI5OC0xLjQzNiwxMy4xNzctNC4xNjJsMTMuNjYxLDE0LjIwOGMwLjU3MSwwLjU5MywxLjMzOSwwLjkyLDIuMTYyLDAuOTIgIGMwLjc3OSwwLDEuNTE4LTAuMjk3LDIuMDc5LTAuODM3QzU2LjI1NSw1NC45ODIsNTYuMjkzLDUzLjA4LDU1LjE0Niw1MS44ODd6IE0yMy45ODQsNmM5LjM3NCwwLDE3LDcuNjI2LDE3LDE3cy03LjYyNiwxNy0xNywxNyAgcy0xNy03LjYyNi0xNy0xN1MxNC42MSw2LDIzLjk4NCw2eiIgZmlsbD0iIzAwMDAwMCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+      </form>
+    </div>
+    <div id="nav-links-left" class="nav-links">
+      <p class="nav-title">Main</p>
+      <div class="left-nav-link"><a href="/">Playing</a></div>
+      <div class="left-nav-link" ><a href="/">Discover</a></div>
+      <div class="left-nav-link"><a href="/">Activity</a></div>
+      <div class="left-nav-link"><a href="/">New Releases</a></div>
+      <p class="nav-title">Movie Lists</p>
+      <div class="left-nav-link"><a href="/">By You</a></div>
+      <div class="left-nav-link"><a href="/">By Other Users</a></div>
+      <p class="nav-title">Collections</p>
+      <div class="left-nav-link"><a href="/">Happy Endings</a></div>
+      <div class="left-nav-link"><a href="/">Sad Beginnings</a></div>
+    </div>
+  </div>
+  <div id="top-nav">
+    <p id="header-text" class="top-nav-text">Activity</p>
+    <div id="sort-tab">
+      <p id="release-date" class="top-nav-text center-text active">Release Date</p>
+      <p class="top-nav-text center-text">Popularity</p>
+    </div>
+    <img id="refresh-icon" class="top-nav-text" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDMwMy40NTQgMzAzLjQ1NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzAzLjQ1NCAzMDMuNDU0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxnPgoJPHBvbHlnb24gcG9pbnRzPSIyNjYuNzA4LDEwMy43NCAzMDMuNDU0LDE0MC40ODYgMzAzLjQ1NCwxMDMuNzQgICIgZmlsbD0iIzAwMDAwMCIvPgoJPHBhdGggZD0iTTIxMC4xMzgsMTAzLjc0aC00Ny45M2w2MC44MTIsNjAuODEyaC01Ni41N2wtNjAuODEyLTYwLjgxMmgtNTAuOTNsNjAuODEyLDYwLjgxMkg1OC45NUw2LjQyOSwxMTIuMDMxICAgYy0wLjYyNCwxLjUzOS0wLjk3NSwzLjIxOC0wLjk3NSw0Ljk4MXYxNjUuMTM0YzAsOS4yMDUsNy40NjIsMTYuNjY3LDE2LjY2NywxNi42NjdoMjY0LjY2NmM5LjIwNSwwLDE2LjY2Ny03LjQ2MiwxNi42NjctMTYuNjY3ICAgVjE2NC41NTJIMjcwLjk1TDIxMC4xMzgsMTAzLjc0eiIgZmlsbD0iIzAwMDAwMCIvPgoJPHBvbHlnb24gcG9pbnRzPSIyNTMuMzIsNC42NDEgMjAyLjkxNSwxMS45NDQgMTUxLjQ1LDgwLjg0NiAyMDEuODU2LDczLjU0NCAgIiBmaWxsPSIjMDAwMDAwIi8+Cgk8cG9seWdvbiBwb2ludHM9IjE0Ni45MywyMC4wNTUgOTkuNDk1LDI2LjkyNyA0OC4wMyw5NS44MyA5NS40NjYsODguOTU3ICAiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik0yOTkuOTczLDQ1LjkxOGwtNC40NzctMzAuOTAybC0zNy42NTcsNTAuNDE3bDMwLjkwMi00LjQ3N0MyOTUuOTk1LDU5LjkwNSwzMDEuMDI0LDUzLjE3MywyOTkuOTczLDQ1LjkxOHoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik00My41MSwzNS4wMzhsLTMyLjE0LDQuNjU2QzQuMTE3LDQwLjc0NS0wLjkxMiw0Ny40NzgsMC4xMzksNTQuNzMybDQuMDg2LDI4LjIwNGwwLjU3LDMuOTM2bDEzLjI5OC0xNy44MDRMNDMuNTEsMzUuMDM4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+  </div>
+  <div id="center">
+    <div id="main">
+      <div id="boxes">
+        <div class="box">
+          <div class="movie-profile-right">
+            <div class="left-arrow"></div>
+            <div class="movie-profile-container">
+              <p class="movie-length">230 min</p>
+              <p class="movie-title"><b>Movie Title</b><br />
+                <span>Action, Adventure</span>
+              </p>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="director">Director: <br />
+              <span class="cast">Cast: </span>
+              </p>
+              <div class="rating">
+                Rating: -------
+              </div>
+            </div>
+          </div>
+          <img class="movie-image" src="https://images.unsplash.com/photo-1516247524857-8dc5f4786cb3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=140&h=209&fit=crop&s=c388e6d395676e1cd26d9fb4815775b5" />
+          <div class="movie-info">
+            <b>Title</b><br />
+            Genre<br />
+            Length
+          </div>
+          
+        </div>
+        <div class="box">
+          <div class="movie-profile-right">
+            <div class="left-arrow"></div>
+            <div class="movie-profile-container">
+              <p class="movie-length">230 min</p>
+              <p class="movie-title"><b>Movie Title</b><br />
+                <span>Action, Adventure</span>
+              </p>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="director">Director: <br />
+              <span class="cast">Cast: </span>
+              </p>
+              <div class="rating">
+                Rating: -------
+              </div>
+            </div>
+          </div>
+          <img class="movie-image" src="https://images.unsplash.com/photo-1516395268396-710c728531c9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=140&h=209&fit=crop&s=91f9b417f92cf95a0fb31289bf698ef1" />
+          <div class="movie-info">
+            <b>Title</b><br />
+            Genre<br />
+            Length
+          </div>
+        </div>
+        <div class="box">
+          <div class="movie-profile-left">
+            <div class="right-arrow"></div>
+            <div class="movie-profile-container">
+              <p class="movie-length">230 min</p>
+              <p class="movie-title"><b>Movie Title</b><br />
+                <span>Action, Adventure</span>
+              </p>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="director">Director: <br />
+              <span class="cast">Cast: </span>
+              </p>
+              <div class="rating">
+                Rating: -------
+              </div>
+            </div>
+          </div>
+          <img class="movie-image" src="https://images.unsplash.com/photo-1518063319789-7217e6706b04?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=140&h=209&fit=crop&s=551fe33a69d9338bf6195309548763fe" />
+          <div class="movie-info">
+            <b>Title</b><br />
+            Genre<br />
+            Length
+          </div>
+        </div>
+        <div class="box">
+          <div class="movie-profile-left">
+            <div class="right-arrow"></div>
+            <div class="movie-profile-container">
+              <p class="movie-length">230 min</p>
+              <p class="movie-title"><b>Movie Title</b><br />
+                <span>Action, Adventure</span>
+              </p>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="director">Director: <br />
+              <span class="cast">Cast: </span>
+              </p>
+              <div class="rating">
+                Rating: -------
+              </div>
+            </div>
+          </div>
+          <img class="movie-image" src="https://images.unsplash.com/photo-1517941313380-8f0b72d17d9e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=140&h=209&fit=crop&s=f4b4a63d839caf8bc4e5afe5da454dea" />
+          <div class="movie-info">
+            <b>Title</b><br />
+            Genre<br />
+            Length
+          </div>
+        </div>
+        <div class="box">
+          <div class="movie-profile-left">
+            <div class="right-arrow"></div>
+            <div class="movie-profile-container">
+              <p class="movie-length">230 min</p>
+              <p class="movie-title"><b>Movie Title</b><br />
+                <span>Action, Adventure</span>
+              </p>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="director">Director: <br />
+              <span class="cast">Cast: </span>
+              </p>
+              <div class="rating">
+                Rating: -------
+              </div>
+            </div>
+          </div>
+          <img class="movie-image" src="https://images.unsplash.com/photo-1516247524857-8dc5f4786cb3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=140&h=209&fit=crop&s=c388e6d395676e1cd26d9fb4815775b5" />
+          <div class="movie-info">
+            <b>Title</b><br />
+            Genre<br />
+            Length
+          </div>
+        </div>
+        <div class="box">
+          <div class="movie-profile-right">
+            <div class="left-arrow"></div>
+            <div class="movie-profile-container">
+              <p class="movie-length">230 min</p>
+              <p class="movie-title"><b>Movie Title</b><br />
+                <span>Action, Adventure</span>
+              </p>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="director">Director: <br />
+              <span class="cast">Cast: </span>
+              </p>
+              <div class="rating">
+                Rating: -------
+              </div>
+            </div>
+          </div>
+          <img class="movie-image" src="https://images.unsplash.com/photo-1516395268396-710c728531c9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=140&h=209&fit=crop&s=91f9b417f92cf95a0fb31289bf698ef1" />
+          <div class="movie-info">
+            <b>Title</b><br />
+            Genre<br />
+            Length
+          </div>
+        </div>
+        <div class="box">
+          <div class="movie-profile-right">
+            <div class="left-arrow"></div>
+            <div class="movie-profile-container">
+              <p class="movie-length">230 min</p>
+              <p class="movie-title"><b>Movie Title</b><br />
+                <span>Action, Adventure</span>
+              </p>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="director">Director: <br />
+              <span class="cast">Cast: </span>
+              </p>
+              <div class="rating">
+                Rating: -------
+              </div>
+            </div>
+          </div>
+          <img class="movie-image" src="https://images.unsplash.com/photo-1518063319789-7217e6706b04?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=140&h=209&fit=crop&s=551fe33a69d9338bf6195309548763fe" />
+          <div class="movie-info">
+            <b>Title</b><br />
+            Genre<br />
+            Length
+          </div>
+        </div>
+        <div class="box">
+          <div class="movie-profile-left">
+            <div class="right-arrow"></div>
+            <div class="movie-profile-container">
+              <p class="movie-length">230 min</p>
+              <p class="movie-title"><b>Movie Title</b><br />
+                <span>Action, Adventure</span>
+              </p>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="director">Director: <br />
+              <span class="cast">Cast: </span>
+              </p>
+              <div class="rating">
+                Rating: -------
+              </div>
+            </div>
+          </div>
+          <img class="movie-image" src="https://images.unsplash.com/photo-1517941313380-8f0b72d17d9e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=140&h=209&fit=crop&s=f4b4a63d839caf8bc4e5afe5da454dea" />
+          <div class="movie-info">
+            <b>Title</b><br />
+            Genre<br />
+            Length
+          </div>
+        </div>
+        <div class="box">
+          <div class="movie-profile-left">
+            <div class="right-arrow"></div>
+            <div class="movie-profile-container">
+              <p class="movie-length">230 min</p>
+              <p class="movie-title"><b>Movie Title</b><br />
+                <span>Action, Adventure</span>
+              </p>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="director">Director: <br />
+              <span class="cast">Cast: </span>
+              </p>
+              <div class="rating">
+                Rating: -------
+              </div>
+            </div>
+          </div>
+          <img class="movie-image" src="https://images.unsplash.com/photo-1516247524857-8dc5f4786cb3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=140&h=209&fit=crop&s=c388e6d395676e1cd26d9fb4815775b5" />
+          <div class="movie-info">
+            <b>Title</b><br />
+            Genre<br />
+            Length
+          </div>
+        </div>
+        <div class="box">
+          <div class="movie-profile-left">
+            <div class="right-arrow"></div>
+            <div class="movie-profile-container">
+              <p class="movie-length">230 min</p>
+              <p class="movie-title"><b>Movie Title</b><br />
+                <span>Action, Adventure</span>
+              </p>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="director">Director: <br />
+              <span class="cast">Cast: </span>
+              </p>
+              <div class="rating">
+                Rating: -------
+              </div>
+            </div>
+          </div>
+          <img class="movie-image" src="https://images.unsplash.com/photo-1516395268396-710c728531c9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=140&h=209&fit=crop&s=91f9b417f92cf95a0fb31289bf698ef1" />
+          <div class="movie-info">
+            <b>Title</b><br />
+            Genre<br />
+            Length
+          </div>
+        </div>
+        <div class="box">
+          <div class="movie-profile-right">
+            <div class="left-arrow"></div>
+            <div class="movie-profile-container">
+              <p class="movie-length">230 min</p>
+              <p class="movie-title"><b>Movie Title</b><br />
+                <span>Action, Adventure</span>
+              </p>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="director">Director: <br />
+              <span class="cast">Cast: </span>
+              </p>
+              <div class="rating">
+                Rating: -------
+              </div>
+            </div>
+          </div>
+          <img class="movie-image" src="https://images.unsplash.com/photo-1518063319789-7217e6706b04?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=140&h=209&fit=crop&s=551fe33a69d9338bf6195309548763fe" />
+          <div class="movie-info">
+            <b>Title</b><br />
+            Genre<br />
+            Length
+          </div>
+        </div>
+        <div class="box">
+          <div class="movie-profile-right">
+            <div class="left-arrow"></div>
+            <div class="movie-profile-container">
+              <p class="movie-length">230 min</p>
+              <p class="movie-title"><b>Movie Title</b><br />
+                <span>Action, Adventure</span>
+              </p>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="director">Director: <br />
+              <span class="cast">Cast: </span>
+              </p>
+              <div class="rating">
+                Rating: -------
+              </div>
+            </div>
+          </div>
+          <img class="movie-image" src="https://images.unsplash.com/photo-1517941313380-8f0b72d17d9e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=140&h=209&fit=crop&s=f4b4a63d839caf8bc4e5afe5da454dea" />
+          <div class="movie-info">
+            <b>Title</b><br />
+            Genre<br />
+            Length
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="right" class="nav">
+    <div class="nav-top">
+      <div id="user-info">
+        User: Kevin Flynn
+      </div>
+    </div>
+    <div id="nav-links-right" class="nav-links">
+      <p class="nav-title">Online</p>
+      <div><a href="/">Sam Flynn</a></div>
+      <div><a href="/">Quora</a></div>
+      <div><a href="/">Castor</a></div>
+      <p class="nav-title">Offline</p>
+      <div><a href="/">CLU</a></div>
+      <div><a href="/">Rinzler</a></div>
+      <div><a href="/">Jarvis</a></div>
+    </div>
+  </div>
+  <div id="icon-credit">
+    Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from 
+    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by 
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
 </html>
