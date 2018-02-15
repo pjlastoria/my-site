@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title></title>
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="movie-app/main.css">
 </head>
 <body>
 	
@@ -368,6 +368,6 @@
     <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
   </div>
 </div>
-<script src="main.js"></script>
+<script src="movie-app/main.js"></script>
 </body>
 </html>
