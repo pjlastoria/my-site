@@ -18,16 +18,16 @@
     </div>
     <div id="nav-links-left" class="nav-links">
       <p class="nav-title">Main</p>
-      <div class="left-nav-link"><a href="/">Playing</a></div>
-      <div class="left-nav-link" ><a href="/">Discover</a></div>
-      <div class="left-nav-link"><a href="/">Activity</a></div>
-      <div class="left-nav-link"><a href="/">New Releases</a></div>
+      <div class="left-nav-link"><p>Playing</p></div>
+      <div class="left-nav-link"><p>Discover</p></div>
+      <div class="left-nav-link"><p>Activity</p></div>
+      <div class="left-nav-link"><p>New Releases</p></div>
       <p class="nav-title">Movie Lists</p>
-      <div class="left-nav-link"><a href="/">By You</a></div>
-      <div class="left-nav-link"><a href="/">By Other Users</a></div>
+      <div class="left-nav-link"><p>By You</p></div>
+      <div class="left-nav-link"><p>By Other Users</p></div>
       <p class="nav-title">Collections</p>
-      <div class="left-nav-link"><a href="/">Happy Endings</a></div>
-      <div class="left-nav-link"><a href="/">Sad Beginnings</a></div>
+      <div class="left-nav-link"><p>Happy Endings</p></div>
+      <div class="left-nav-link"><p>Sad Beginnings</p></div>
     </div>
   </div>
   <div id="top-nav">
@@ -353,13 +353,13 @@
     </div>
     <div id="nav-links-right" class="nav-links">
       <p class="nav-title">Online</p>
-      <div><a href="/">Sam Flynn</a></div>
-      <div><a href="/">Quora</a></div>
-      <div><a href="/">Castor</a></div>
+      <div><p>Sam Flynn</p></div>
+      <div><p>Quora</p></div>
+      <div><p>Castor</p></div>
       <p class="nav-title">Offline</p>
-      <div><a href="/">CLU</a></div>
-      <div><a href="/">Rinzler</a></div>
-      <div><a href="/">Jarvis</a></div>
+      <div><p>CLU</p></div>
+      <div><p>Rinzler</p></div>
+      <div><p>Jarvis</p></div>
     </div>
   </div>
   <div id="icon-credit">
