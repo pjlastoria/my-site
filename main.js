@@ -21,10 +21,10 @@ function handleSearchClick() {
   this.value = "";
 }
 
-/*function changeTitle(ele) {
-  var newTitle = ele.target.firstChild.innerHTML;
+function changeTitle(ele) {
+  var newTitle = ele.target.innerHTML;
   header.innerHTML = newTitle;
-}*/
+}
 
 function handleClick(evt) {
   if(evt.target.className === "top-nav-text center-text active") {
