@@ -47,16 +47,14 @@ body {
   width: 220px;
 }
 
-.nav-links a {
-  color: #cfd1d3;
-  text-decoration: none;
-  margin-left: 20px;
+.nav-links div p {
+  margin: 0 40px;
 }
 
 .nav-links div {
-  width: 180px;
-  margin-left: 20px;
-  
+  width: 220px;
+  color: #cfd1d3;
+  text-decoration: none;
   line-height: 40px;
 }
 
