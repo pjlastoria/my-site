@@ -1,5 +1,5 @@
 body {
-    background-image: url("Images/grid_bg.jpg");
+    background-image: url("images/grid_bg.jpg");
     background-repeat:repeat;
     font-family: monospace;
     font-size: 16px;
@@ -8,24 +8,20 @@ body {
 
 #cover {
     background-color: black;
-    position: absolute;
+    position: fixed;
     top:0 ;
     left: 0;
     width: 100%;
     height: 100%;
     opacity: 0.5;
-    
 }
 
 #main {
-    width: 70vw;
-    height: 80vh;
-    background-color: black;
+    background-color: #000000;
     border-radius: 10px;
     box-shadow: 0 0 4px 1px #fff;
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%,-50%);
+    position: relative;
+    margin: 10px auto;
 }
 
 #main-container {
@@ -36,7 +32,7 @@ body {
 }
 
 #bio-container {
-    margin: 30px;
+    margin: 10px;
 }
 
 #img-container {
@@ -63,7 +59,7 @@ body {
 }
 
 #projects {
-    margin: 0 30px 30px;
+    margin: 0 10px 30px;
     border-radius: 10px 10px 0 0;
     background-color: #0F7A7A;
 }
@@ -74,28 +70,111 @@ body {
 }
 
 #projects-container {
-    display: flex;
-    justify-content: space-between;
     background-color: black;
-    gap: 10px;
-    flex-wrap: wrap;
 }
 
-.project-div {
-    display: flex;
-    justify-content: center;
-    
+#projects-container .pretty-line {
+    padding: 60px 0;
+    margin: 0 auto 100px;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.project-title a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.project-title a:hover {
+    color: #0F7A7A;
+    text-decoration: underline;
+}
+
+.spacing {
+    height: 1px;
 }
 
 .project {
-    height: 200px;
-    
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 30px;
 }
 
-.project img {
-    width: 280px;
-    height: 150px;
-    box-shadow: 0 0 4px 1px #fff;
-    border-radius: 10px;
-    object-fit: cover;
+.sm-screen-showcase, .lg-screen-showcase {
+    position: relative;
+}
+
+.sm-screen-showcase {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.sm-screen-showcase img {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.sm-screen-vid {
+    width: 94%;
+    bottom: 37px;
+    left: 6px;
+    position: absolute;
+}
+
+.lg-screen-showcase {
+    flex: 1;
+}
+
+.lg-screen-showcase img {
+    width: 100%;
+    height: 100%;
+}
+
+.lg-screen-vid {
+    width: 94.5%;
+    top: 4.5%;
+    left: 2.7%;
+    position: absolute;
+}
+
+@media (min-width: 450px) {
+
+    #main {
+        width: 90vw;
+        margin: 40px auto;
+    }
+
+    #bio-container {
+        margin: 30px;
+    }
+
+    #projects {
+        margin: 0 30px 30px;
+    }
+
+}
+
+@media (min-width: 1070px) {
+
+    .project {
+        flex-direction: row;
+    }
+
+    .sm-screen-showcase img {
+        position: absolute;
+    }
+
+}
+
+@media (min-width: 1375px) {
+
+    #main {
+        width: 80vw;
+    }
+
 }
