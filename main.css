@@ -82,7 +82,7 @@ body {
     text-align: center;
 }
 
-.project-title a {
+a {
     color: white;
     text-decoration: none;
     transition: 0.5s;
@@ -140,6 +140,21 @@ body {
     top: 4.5%;
     left: 2.7%;
     position: absolute;
+}
+
+.footer-line {
+    margin: 50px auto;
+}
+
+.socials {
+    margin: 30px auto;
+    padding: 0 30px;
+}
+
+.socials img {
+    width: 80px;
+    height: 80px;
+    position: relative;
 }
 
 @media (min-width: 450px) {
