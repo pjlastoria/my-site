@@ -41,6 +41,10 @@ body {
     align-items: center;
 }
 
+#img-container img {
+    object-fit: cover;
+}
+
 .pretty-line {
     width: 50%;
     border-bottom: solid 1px grey;
